@@ -2,6 +2,12 @@
 
 clear
 
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+echo -e "${GREEN}"
+
 cat << "EOF"
        __                           ____  ____
       / /___  _________ ____       / __ \/ __/
@@ -15,6 +21,8 @@ cat << "EOF"
 /___/ /_/|_/   /_/   /_/|_| \___/ \___//_/|_|/_/ |_|
 
 EOF
+
+echo -e "${NC}"
 
 echo ""
 echo "a estudiar, cabrón"
